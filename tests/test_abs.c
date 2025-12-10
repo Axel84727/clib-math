@@ -4,6 +4,6 @@
 int main()
 {
     int x = -2;
-    printf("abs(%d) = %d\\n", x, clib_abs_int(x));
+    printf("abs(%d) = %d\\n", x, cabs(x));
     return 0;
 }
